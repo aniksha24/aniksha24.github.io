@@ -50,19 +50,19 @@
 .footer {
   padding: 20px;
   margin: 0px;
-  background-color: black;
+  background-color: ;
   color: white;
   font-size: large;
   text-align: center;
 }
 
 button {
-  background-color:black;
+  background-color:;
   padding: 10px;
   color: white;
   border: none;
   border-radius: 10%;
 }
 body{
-  background-color: black;
+  background-color: ;
 }
