@@ -1,68 +1,112 @@
-
-.container {
-  position: fixed;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  scroll-behavior: smooth;
-  height: 100%;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #333;
 }
-
-.header-row {
-  background-color:pink;
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: grey;
+  padding: 10px 20px;
   position: sticky;
-  top: 0px;
+  top: 0;
+  z-index: 1000;
 }
 
-.header-row .box {
-  padding: 10px;
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.header-row li {
-  display: inline;
-  padding: 5px;
-  font-size: larger;
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-.header-row a {
+.header a {
   text-decoration: none;
+  color: black;
+  font-size: 18px;
 }
 
-.header-row a:hover {
+.header a:hover {
   text-decoration: underline;
 }
-
-.row {
-  padding: 100px;
-  height: 75%;
-}
-
-.row .box {
-  padding: 20px;
-  margin: 10px;
-}
-
-.footer {
-  padding: 20px;
-  margin: 0px;
-  background-color: ;
-  color: white;
-  font-size: large;
+.section {
+  padding: 50px;
   text-align: center;
 }
 
-button {
-  background-color:;
-  padding: 10px;
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.home-content img {
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.scroll-container {
+  display: flex;
+
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 0 auto;
+  justify-content: space-between;
+  width: 300px;
+  padding:10px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.btn {
+  display: inline-block;
+  background: #007BFF;
   color: white;
+  padding: 10px 15px;
   border: none;
-  border-radius: 10%;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
 }
-body{
-  background-color: ;
+
+.btn:hover {
+  background: #0056b3;
 }
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-container .box {
+  width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+#b{
+  color: white;
+}
+
