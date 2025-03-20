@@ -60,9 +60,10 @@ body {
 }
 
 .card {
-   
+   /* display: flex; */
+   align-items:center;
   justify-content: space-between;
-  width: 300px;
+  width: 250px;
   padding:10px;
   border-radius: 10px;
   background: white;
@@ -72,6 +73,21 @@ body {
 
 .card:hover {
   transform: scale(1.05);
+}
+.card1 {
+  /* display: flex; */
+  align-items:center;
+ justify-content: space-between;
+ width: 300px;
+ padding:20px;
+ border-radius: 10px;
+ background: white;
+ box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease;
+}
+
+.card1:hover {
+ transform: scale(1.05);
 }
 .btn {
   display: inline-block;
